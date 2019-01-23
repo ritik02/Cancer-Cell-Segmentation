@@ -4,7 +4,7 @@ There are 4 folders of images consisting of an amalgamation of Fibroblast and Co
 at horizontal and vertical cross-sections.
 
 For getting access to the images - ping me on ritikxman@gmail.com
-The code is written in Python and OpenCV has been used .
+The code is written in Python (OpenCV) .
 
 Image Processing Algorithm - 
 1) Pre-Processing - Noise Removal , Opening .
@@ -14,7 +14,7 @@ Image Processing Algorithm -
 5) Use Dilation for background Exctraction.
 6) Use Distance Transform with thresholding for foreground extraction.
 7) Mark the various objects with labels.
-8) Apply Watershed Algorithms for counting of cells.
+8) Apply Marker Controlled Watershed Algorithm for counting of cells.
 
-green.py - counts and segments green fibroblast cells for all the images in a folder so that we can get a distribution pattern among various image slices.
-blue.py - counts and segments green fibroblast cells for all the images in a folder so that we can get a distribution pattern among various image slices.
+green.py - counts and segments green fibroblast cells for all the images in a folder so that we can get a distribution pattern among various image slices ( area and count )
+blue.py - counts and segments blue colon cancer cells for all the images in a folder so that we can get a distribution pattern among various image slices ( area and count )
